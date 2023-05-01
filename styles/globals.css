@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-property: none;
+}
+body {
+  background-color: #fafafa;
+}
+main {
+  overflow: hidden;
+  position: relative;
+}

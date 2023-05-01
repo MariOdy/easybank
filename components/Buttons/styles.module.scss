@@ -1,0 +1,25 @@
+.request_btn {
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
+  border-radius: 36px;
+  padding: 12px 32px;
+  color: white;
+  font-weight: 500;
+  min-width: fit-content;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: background, color, scale;
+  &:hover,
+  &:focus-visible {
+    background: linear-gradient(
+      135deg,
+      rgba(51, 211, 94, 0.6) 0%,
+      rgba(42, 182, 217, 0.6) 99.58%
+    );
+    color: #104d34;
+  }
+  &:active {
+    scale: 0.98;
+  }
+}
